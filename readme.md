@@ -25,7 +25,7 @@ Remember to type `node src/js/google_shopping.js` to run the file (or `npm start
 
 5.) Print all `items` that have an author name of "eBay" and are brand "Canon".
 
-6.) Print all the products with their **brand**, **price**, and a **image link**
+6.) Print all the products with their **brand**, **price**, and an **image link**
 
 
 ##Hints
