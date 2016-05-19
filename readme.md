@@ -4,6 +4,7 @@ We'll be using a file represented as **JSON** for this assignment. JSON is a sta
 
 ##Getting Started
 * Fork and clone this repository to your computer
+* Run `npm install` to install dependencies
 * Look in the starter file, called `google_shopping.js`. We'll be using Node to read the JSON file and access it as a JavaScript object
 * Run the file by typing `node google_shopping.js` into the console. If you get items printing out, you're ready to start on the assignment.
 
