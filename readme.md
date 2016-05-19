@@ -5,24 +5,28 @@ We'll be using a file represented as **JSON** for this assignment. JSON is a sta
 ##Getting Started
 * Fork and clone this repository to your computer
 * Run `npm install` to install dependencies
-* Look in the starter file, called `google_shopping.js`. We'll be using Node to read the JSON file and access it as a JavaScript object
-* Run the file by typing `node google_shopping.js` into the console. If you get items printing out, you're ready to start on the assignment.
+* Look in the starter file in `src/js`, called `google-shopping.js`. We'll be using Node to read the JSON file and access it as a JavaScript object
+* Run the file by typing `node src/js/google_shopping.js` into the console. If you get items printing out, you're ready to start on the assignment.
+  * Alternatively, `npm start` can also be used
 
-##Requirements
+##Deliverables
 
 Use the product search result in your file to find the following results. Note that you may want to comment out your solutions as you solve them, to avoid a mess of output in the terminal.
 
-1.) The `kind` of results you're are dealing  are `shopping#products`. Go through the `items` and find all results that have `kind` of `shopping#product`. How many are there? Where else is this count information stored in the search results?
+Remember to type `node src/js/google_shopping.js` to run the file (or `npm start`).
 
-2.) Find all items with a `backorder` availability in `inventories`.
+1.) Go through the `items` and find all results that have `kind` of `shopping#product`. Print the count of these results. Where else is this count information stored in the search results?
 
-3.) Find all items with more than one image link.
+2.) Print the `title` all items with a `backorder` availability in `inventories`.
 
-4.) Find all `canon` products in the items (careful with case sensitivity).
+3.) Print the `title` all items with more than one image link.
 
-5.) Find all `items` that have **product** **author** **name** of "eBay" and are brand "Canon".
+4.) Print all "Cannon" products in the items (careful with case sensitivity).
+
+5.) Print all `items` that have an author name of "eBay" and are brand "Canon".
 
 6.) Print all the products with their **brand**, **price**, and a **image link**
+
 
 ##Hints
 
