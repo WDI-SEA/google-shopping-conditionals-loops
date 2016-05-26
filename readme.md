@@ -8,6 +8,7 @@ We'll be using a file represented as **JSON** for this assignment. JSON is a sta
 * Look in the starter file in `src/js`, called `google-shopping.js`. We'll be using Node to read the JSON file and access it as a JavaScript object
 * Run the file by typing `node src/js/google-shopping.js` into the console. If you get items printing out, you're ready to start on the assignment.
   * Alternatively, `npm start` can also be used
+  * Alternatively, you can also create a separate file for each problem. Keep in mind you'll want to use the `node` command instead of `npm start` when dealing with multiple files.
 
 ##Deliverables
 
@@ -21,7 +22,7 @@ Remember to type `node src/js/google-shopping.js` to run the file (or `npm start
 
 3.) Print the `title` all items with more than one image link.
 
-4.) Print all "Cannon" products in the items (careful with case sensitivity).
+4.) Print all "Canon" products in the items (careful with case sensitivity).
 
 5.) Print all `items` that have an author name of "eBay" and are brand "Canon".
 
