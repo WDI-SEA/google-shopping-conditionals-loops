@@ -5,8 +5,8 @@ We'll be using a file represented as **JSON** for this assignment. JSON is a sta
 ##Getting Started
 * Fork and clone this repository to your computer
 * Run `npm install` to install dependencies
-* Look in the starter file in `src/js`, called `google-shopping.js`. We'll be using Node to read the JSON file and access it as a JavaScript object
-* Run the file by typing `node src/js/google-shopping.js` into the console. If you get items printing out, you're ready to start on the assignment.
+* Look in the starter file in `js`, called `google-shopping.js`. We'll be using Node to read the JSON file and access it as a JavaScript object
+* Run the file by typing `node js/google-shopping.js` into the console. If you get items printing out, you're ready to start on the assignment.
   * Alternatively, `npm start` can also be used
   * Alternatively, you can also create a separate file for each problem. Keep in mind you'll want to use the `node` command instead of `npm start` when dealing with multiple files.
 
@@ -14,7 +14,7 @@ We'll be using a file represented as **JSON** for this assignment. JSON is a sta
 
 Use the product search result in your file to find the following results. Note that you may want to comment out your solutions as you solve them, to avoid a mess of output in the terminal.
 
-Remember to type `node src/js/google-shopping.js` to run the file (or `npm start`).
+Remember to type `node js/google-shopping.js` to run the file (or `npm start`).
 
 1.) Go through the `items` and find all results that have `kind` of `shopping#product`. Print the count of these results. Where else is this count information stored in the search results?
 
