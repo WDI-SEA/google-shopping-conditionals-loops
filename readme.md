@@ -38,3 +38,9 @@ Remember to type `node js/google-shopping.js` to run the file (or `npm start`).
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+---
+
+## Licensing
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
