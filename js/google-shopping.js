@@ -6,6 +6,9 @@ let data = require('../products.json')
 // This is a print out of all the items in the data
 console.log(data.items)
 
+// Next, it's recommended to just look at the first item
+console.log(data.items[0])
+
 // YOUR CODE BELOW
 // 1.) Go through the `items` and find all results that have `kind` of
 // `shopping#product`. Print the count of these results. Where else is
